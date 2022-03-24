@@ -4,6 +4,9 @@ const app = Vue.createApp({
             courseGoal :'Finish the course ',
             vueLink : 'https://www.samanja.dev/'
         };
+    }, 
+    methods: {
+        outputGoal
     }
 });
 
